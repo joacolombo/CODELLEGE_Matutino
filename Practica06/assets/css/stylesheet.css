@@ -1,0 +1,49 @@
+header {
+  width: 200vw;
+  height: 5vh;
+}
+#welcome {
+  width: 100%;
+  height: 95vh;
+  margin: 0;
+  border-radius: 0%;
+  background-image: url(/assets/img/header4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#profilePic {
+  width: 200px;
+  height: 200px;
+  background-image: url(/assets/img/CV.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 5px black solid;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.skillTable {
+  border: 1px white solid;
+}
+
+.contenedores {
+  height: 400px;
+}
